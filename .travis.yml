@@ -1,0 +1,10 @@
+deploy:
+  provider: releases
+  api_key:
+    secure: Cm3fW9OxY+b9tz72bEtp0/MeqKnmIbzJKBnsUeTm4GIjIPu2MypjKwYjVGvqL9Odsi1atJzGm6nPCw8BPJCp1lIscOxZtNn+99J2BhX2VqFSR5gVOsPIWgDS6JnrmQt7MxE/7deMxGusMk5ZaONvQ+jrgxyHlSDz3aFwXJz0KCP2GToO/gNmD7XiJ1Hw3dK6A7OQ+7vYRs0hXGtcub87rNYILwyFVWH3pL55f+qFkt/ZFlxtpNG9M6DNzqwJsIkFOxORcr0Tdc40wHRuy/y4mLrLLfBDXFrCfkF27p+ubUpO9Bg2N7QNfyPXE4LXV5ZtqYopkdm62gmoVa8/yrcMHsiT11z26nhgj5J3Bq3tizJqRzbSfFcE8Ixh0mBxuklx/kdF9cwmhQfOLaz35ZPtMLz4XO2VoevZD83LX6uzkXB1JKKtgiYDu4IAEDMnMIL4yNhRU2bY6JiLA3nCQE9RrUBnQIe+FrMoJeSMMK0B1Gom09sxOiYjN79DW5qiP1hVSwqA/zxIJVr2diAOuwQF6OFB3LZgqBKRq9v4m6y/yrVZ3OOoPOeE4LN+egRPOD43dW6e1+zA3d1W5Cm60dItqKcliIr9ZAvgMfM7Gff/qSsBnEVDdoFYplEzMFriOvw2p3EXDdGQsiU80tG19N+qap2xpONITPCny6qQsxUUBYU=
+  file: hello.sh
+  on:
+    repo: martinhristov90/travisRelease
+  skip_cleanup: true
+  on: 
+    tags: true
